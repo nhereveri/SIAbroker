@@ -1,0 +1,14 @@
+server:
+  port: 65000
+  diff:
+    negative: -20
+    positive: 40
+dispatcher:
+  -
+    type: 'mssql'
+    format: 'human'
+    user: 'foo'
+    password: 'P4$$w0Rd'
+    database: 'sia-events-db'
+    server: '10.0.2.15'
+    port: 1433

@@ -1,0 +1,16 @@
+{
+  "name": "SIAbroker",
+  "version": "1.0.0",
+  "description": "Log AJAX Security Systems events to a database.",
+  "main": "server.js",
+  "keywords": [],
+  "author": "Nelson Hereveri",
+  "license": "The Unlicense",
+  "dependencies": {
+    "crc": "^3.8.0",
+    "moment-timezone": "^0.5.27",
+    "mssql": "^6.0.1",
+    "yaml": "^1.7.2",
+    "yargs": "^15.0.2"
+  }
+}
