@@ -4,7 +4,13 @@ Allows you to log AJAX Security Systems events and other types of SIA-DC-09 even
 
 - an MSSQL database
 
-Currently the option to configure the server as UDP is not implemented, it only receives non-encrypted TCP connections.
+## Standard compatibility
+
+Currently the option to configure this server as UDP is not implemented, it only receives non-encrypted TCP connections.
+
+This server act as Central Station Receivers (CSR). Encryption support is mandatory for CSRs. So, this is a non-standard project at this time.
+
+## Standard
 
 ## Install
 
@@ -83,4 +89,4 @@ dispatcher:
 - adding other types of distpatchers
 - use Facade pattern in dispatch function
 - use UDP connections
-- decrypt mesasges
+- decrypt messages
