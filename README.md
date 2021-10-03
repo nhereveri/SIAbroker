@@ -4,6 +4,8 @@ Allows you to log AJAX Security Systems events and other types of SIA-DC-09 even
 
 - an MSSQL database
 
+Currently the option to configure the server as UDP is not implemented, it only receives non-encrypted TCP connections.
+
 ## Install
 
 ```bash
@@ -80,3 +82,5 @@ dispatcher:
 
 - adding other types of distpatchers
 - use Facade pattern in dispatch function
+- use UDP connections
+- decrypt mesasges
