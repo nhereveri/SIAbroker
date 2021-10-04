@@ -10,8 +10,6 @@ Currently the option to configure this server as UDP is not implemented, it only
 
 This server act as Central Station Receivers (CSR). Encryption support is mandatory for CSRs. So, this is a non-standard project at this time.
 
-## Standard
-
 ## Install
 
 ```bash
