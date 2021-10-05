@@ -1,6 +1,6 @@
-# SIA node server
+# SIA node service
 
-Allows you to log AJAX Security Systems events and other types of SIA-DC-09 events to…
+Allows you to log Premises Equipment (PE) types of SIA-DC-09 events, like AJAX Security Systems.
 
 - an MSSQL database
 
@@ -8,7 +8,7 @@ Allows you to log AJAX Security Systems events and other types of SIA-DC-09 even
 
 Currently the option to configure this server as UDP is not implemented, it only receives non-encrypted TCP connections.
 
-This server act as Central Station Receivers (CSR). Encryption support is mandatory for CSRs. So, this is a non-standard project at this time.
+This service act as Central Station Receivers (CSR). Encryption support is mandatory for CSRs. So, **this is a non-standard project** at this time.
 
 ## Install
 
@@ -55,7 +55,8 @@ node server.js --debug
 
 At the moment it only supports dispatchers type ...
 
-- `mssql`
+- [x] `console`
+- [x] `mssql`
 
 You can specify the number of dispatchers you need.
 
@@ -84,7 +85,7 @@ dispatcher:
 
 ## TODO
 
-- adding other types of distpatchers
-- use Facade pattern in dispatch function
-- use UDP connections
-- decrypt messages
+- [] adding other types of distpatchers
+- [] use Facade pattern in dispatch function
+- [] use UDP connections
+- [] decrypt messages
