@@ -55,8 +55,8 @@ node server.js --debug
 
 At the moment it only supports dispatchers type ...
 
-- [x] `console`
-- [x] `mssql`
+- ✅ `console`
+- ✅ `mssql`
 
 You can specify the number of dispatchers you need.
 
