@@ -2,7 +2,7 @@
 
 Allows you to log Premises Equipment (PE) types of SIA-DC-09 events, like AJAX Security Systems.
 
-- ✅ an MSSQL database
+- [x] an MSSQL database
 - [ ] broadcast API
 - [ ] MySQL 8.0 database
 - [ ] log to a file
