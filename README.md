@@ -85,7 +85,7 @@ dispatcher:
 
 ## TODO
 
-- [] adding other types of distpatchers
-- [] use Facade pattern in dispatch function
-- [] use UDP connections
-- [] decrypt messages
+- [ ] adding other types of distpatchers
+- [ ] use Facade pattern in dispatch function
+- [ ] use UDP connections
+- [ ] decrypt messages
